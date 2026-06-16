@@ -1,0 +1,13 @@
+def my_function(s,s1,v_count,c_count):
+    for i in s:
+        if i in s1:
+            v_count+=1
+        else:
+            c_count+=1
+    print("vowel count =",v_count)
+    print("consonant count =",c_count)
+s=input("enter the string:")
+s1="aeiouAEIOU"
+v_count=0
+c_count=0
+my_function(s,s1,v_count,c_count)
